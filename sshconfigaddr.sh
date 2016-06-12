@@ -1,7 +1,6 @@
 #!/bin/bash
 
 CONFIGFILE=~/.ssh/config
-cat $CONFIGFILE
 
 read -p "Enter Connection name: " connectionname
 read -p "Enter Host name: " hostname
